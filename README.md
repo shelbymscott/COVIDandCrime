@@ -24,14 +24,17 @@ This file is used to determine whether Baton  Rouge data shows significant diffe
 The Chicago crime datasets come from the [Chicago City Data Portal](https://data.cityofchicago.org/), which provides a number of different datasets for varied time periods and topics. Particularly, we pull from the [Crimes - 2001 to Present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) and isolate the first three months of 2020 as our study period. The number of each crime type on each day was counted. Some crime types were excluded from the analysis included in the publication, but are available for further exploration. Included in this dataset is only the date and the number of each crime type on said date. There is far more information available in the initial dataset that can be downloaded and tested.
 
 #### Chicago_Crime_201x_Analysis.csv
-
-#### Baton_Rouge_Crime_Analysis.csv
+We pull from the [Crimes - 2001 to Present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) and isolate the crimes occurring in 2017, 2018, and 2019 during the study period. The number of each crime type on each day was counted. Some crime types were excluded from the analysis included in the publication, but are available for further exploration. Included in this dataset is only the date and the number of each crime type on said date. There is far more information available in the initial dataset that can be downloaded and tested.
 
 #### BPD_VBC_Analysis.csv
+The Baltimore Victim Based Crime are available through [Open Baltimore](https://data.baltimorecity.gov/), and we use the [BPD Part 1 Victim Based Crime Data](https://data.baltimorecity.gov/Public-Safety/BPD-Part-1-Victim-Based-Crime-Data/wsfq-mvij) dataset to determine whether there are similar patterns in Baltimore as are seen in Chicago. The full dataset contains information pertaining to the location and time of each incident. For this analysis, we only include the date and the number of each crime type that occurred on that day. Some variables are excluded from analysis due to low counts, as described in the publication.
+
+#### Baton_Rouge_Crime_Analysis.csv
+The Baton Rouge Crime Incidents are available through [Open Data BR](https://data.brla.gov/), and we use the [Crime Incidents](https://data.brla.gov/Public-Safety/Baton-Rouge-Crime-Incidents/fabb-cnnu) dataset to determine whether there are similar patterns in Baton Rouge as are seen in Chicago. The full dataset contains information pertaining to the location and time of each incident. For this analysis, we only include the date and the number of each crime type that occurred on that day. Some variables are excluded from analysis due to low counts, as described in the publication.
 
 
 ## Running the Files
-Once you've downloaded the files, make sure they are all stored in the same folder, or you may run into errors with the code.
+Once you've downloaded the files, make sure they are all stored in the same folder or that the Matlab path is defined, or you may run into errors with the code.
 
 ## Tests to Run
 
