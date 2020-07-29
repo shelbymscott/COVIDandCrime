@@ -21,6 +21,7 @@ This file is used to determine whether Baltimore data shows significant differen
 This file is used to determine whether Baton  Rouge data shows significant differences across years and time periods, mostly focused on the social restrictions implemented in response to COVID-19. The data files (included in the repository) are imported and parsed based on different time periods. Comparisons are then made for a variety of different time periods and years using t-tests. Finally, there is the ability to make scatter plots based on the results.
 
 #### Chicago_Crime_2020_Analysis.csv
+The Chicago crime datasets come from the [Chicago City Data Portal](https://data.cityofchicago.org/), which provides a number of different datasets for varied time periods and topics. Particularly, we pull from the [Crimes - 2001 to Present](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-Present/ijzp-q8t2) and isolate the first three months of 2020 as our study period. The number of each crime type on each day was counted. Some crime types were excluded from the analysis included in the publication, but are available for further exploration. Included in this dataset is only the date and the number of each crime type on said date. There is far more information available in the initial dataset that can be downloaded and tested.
 
 #### Chicago_Crime_201x_Analysis.csv
 
@@ -32,7 +33,7 @@ This file is used to determine whether Baton  Rouge data shows significant diffe
 ## Running the Files
 Once you've downloaded the files, make sure they are all stored in the same folder, or you may run into errors with the code.
 
-## Test to Run
+## Tests to Run
 
 ## Authors
 Shelby M. Scott is the author of this code and responsible for data management. If you have questions, feel free to contact her through shelbymscott.github.io with questions.
