@@ -28,7 +28,7 @@ SAH_BR_Crime = BR_Crime(81:95,:);
 
 
 %% Figures
-% This creates a scatter plot of the desired data.
+% This creates a scatter plot of the desired data
 figure(1);
 sz1 = 65;
 scatter(BR_Crime.Date, BR_Crime.TotalCrimes, sz1, 'filled', 'MarkerEdgeColor', [0.25, .25, .25], 'MarkerFaceColor',[0, 0.4470, 0.7410])
