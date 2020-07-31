@@ -24,7 +24,7 @@ SAH_BR_Crime = BR_Crime(81:95,:);
 %% T-tests
 % T-tests for comparing time periods
 % Variables can be changed to test different crime types and time periods
-[h_B2, p_B2, ci_B2, stats_B2] = ttest2(PreSAH_BR_Crime.Vice, SAH_BR_Crime.Vice);
+[h_B2, p_B2, ci_B2, stats_B2] = ttest2(PreSAH_BR_Crime.TotalCrimes, SAH_BR_Crime.TotalCrimes);
 
 
 %% Figures

@@ -34,9 +34,12 @@ The Baton Rouge Crime Incidents are available through [Open Data BR](https://dat
 
 
 ## Running the Files
-Once you've downloaded the files, make sure they are all stored in the same folder or that the Matlab path is defined, or you may run into errors with the code.
+Once you've downloaded the files, make sure they are all stored in the same folder or that the Matlab path is defined, or you may run into errors with the code. Each of the files is broken into three parts: variable definition, t-tests, and figure creation. The variable definition section takes the dataset for each city, creates date vectors, and matches the city dataset with each of these dates. The t-test section then allows the user to run t-tests on different time periods and variables that are available. The figure creation section then produces scatter plots of the desired data.
 
 ## Tests to Run
+In each of the files, pressing "Run" will import the data, define the variables, run t-tests, and create figures. The Baltimore and Baton Rouge files compare the total crimes which occurred in the time period before the stay at home order to the two weeks after the stay at home order was put in place. The Chicago code file allows comparisons across years and further time periods. The t-test comparisons are in the following format: "[h, p, ci, stats] = ttest2(dataset1.variable1, dataset2,variable2)."
+
+To change the time period, change the dataset in the code. To change the crime type studied, change the variable in the code. The time periods can also be shifted in the variable definition portion of the code. Try testing past years against each other in the Chicago dataset or test for similarities between 2020 time periods in the Baltimore and Baton Rouge datasets.
 
 ## Authors
 Shelby M. Scott is the author of this code and responsible for data management. If you have questions, feel free to contact her through shelbymscott.github.io with questions.

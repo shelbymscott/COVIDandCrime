@@ -24,7 +24,7 @@ SAH_BPD_Crime = BPD_VBC(89:103,:);
 %% T-tests
 % T-tests for comparing time periods
 % Variables can be changed to test different crime types and time periods
-[h_B1, p_B1, ci_B1, stats_B1] = ttest2(PreSAH_BPD_Crime.Shooting, SAH_BPD_Crime.Shooting);
+[h_B1, p_B1, ci_B1, stats_B1] = ttest2(PreSAH_BPD_Crime.TotalCrimes, SAH_BPD_Crime.TotalCrimes);
 
 
 %% Figures
